@@ -7,6 +7,7 @@
     --botao-azul-efeito: #1c57d5;
 }
 
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
@@ -116,6 +117,9 @@ body {
 }
 
 .rodape {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
     justify-content: center;
     margin: 0 3em;
@@ -163,13 +167,39 @@ body {
         display: block;
         background-image: none;
     }
-    
     .container__imagem {
         width: 50vw;
     }
 
-    .container__caixa {
-        margin: 2em 2em;
+    .secundario {
+        margin: 0;
+        text-align:center;
+
+    }
+    .secundario__imagem {
+        width: 50vw;
     }
 
+    .dispositivos {
+        margin: 0;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+    .rodape__logo {
+        margin: 0 0em 0 3em;
+    }
+    .rodape {
+        margin: 0;
+    }
+    .rodape__lista {
+        display: block
+    }
+    .rodape__texto {
+        margin: 1em;
+        white-space: normal;
+    }
+    
 }
+
